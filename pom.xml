@@ -60,7 +60,7 @@
         <vertx.version>4.5.21</vertx.version>
         <netty.version>4.1.125.Final</netty.version>
         -->
-        <jackson.version>2.18.2</jackson.version>
+        <jackson.version>2.18.6</jackson.version>
         <jspecify.version>1.0.0</jspecify.version>
         <guava.version>33.4.8-jre</guava.version>
         <caffeine.version>3.2.3</caffeine.version>
@@ -73,9 +73,6 @@
         <junit.version>5.13.4</junit.version>
         <datafaker.version>2.5.3</datafaker.version>
 
-        <h2.version>2.2.224</h2.version>
-        <HikariCP.version>6.2.1</HikariCP.version>
-        <metrics.version>4.2.29</metrics.version>
         <bugsnag.version>3.7.2</bugsnag.version>
 
         <picocli.version>4.7.7</picocli.version>
@@ -233,18 +230,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.h2database</groupId>
-                <artifactId>h2-mvstore</artifactId>
-                <version>${h2.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.zaxxer</groupId>
-                <artifactId>HikariCP</artifactId>
-                <version>${HikariCP.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
@@ -260,24 +245,6 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
                 <version>${logback.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.dropwizard.metrics</groupId>
-                <artifactId>metrics-core</artifactId>
-                <version>${metrics.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.dropwizard.metrics</groupId>
-                <artifactId>metrics-jvm</artifactId>
-                <version>${metrics.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.dropwizard.metrics</groupId>
-                <artifactId>metrics-graphite</artifactId>
-                <version>${metrics.version}</version>
             </dependency>
 
             <dependency>
